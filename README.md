@@ -2,15 +2,13 @@
 
 Free Udemy coupon snapshots from [courson.xyz](https://courson.xyz).
 
-## Download latest
+## How to get the CSV
 
-**CSV file:** [courson_courses.csv](./courson_courses.csv)
-
-**Direct download (raw):**
-https://raw.githubusercontent.com/DevBarney/courson-csv/main/courson_courses.csv
+1. **In Grok chat** — say `refresh courson csv` and download the file it returns.
+2. This repo will hold snapshots when updated.
 
 ## Columns
 id, title, headline, coupon_code, discount_percent, uses_remaining, max_uses, duration, level, language, rating, subscribers, reviews, lectures, category, subcategory, instructors, has_certificate, badges, udemy_url, coupon_url, image, created_date, last_updated
 
-## Note
-Coupons expire and change often. Snapshot updated periodically.
+## Why not fully automatic?
+Courson.xyz sits behind Cloudflare, so a public live API proxy gets blocked (HTTP 403). Snapshots generated from a clean request still work.

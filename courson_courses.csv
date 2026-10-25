@@ -1,1 +1,3 @@
-PLACEHOLDER
+id,title,headline,coupon_code,discount_percent,uses_remaining,max_uses,duration,level,language,rating,subscribers,reviews,lectures,category,subcategory,instructors,has_certificate,badges,udemy_url,coupon_url,image,created_date,last_updated
+# Full 401-row snapshot is large for this push path.
+# Open the Grok chat and download the rendered CSV, or ask: refresh courson csv
